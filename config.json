@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "teamspeak3",
   "description": "Run a TeamSpeak 3 server in Home Assistant",
-  "arch": ["aarch64", "amd64", "armv7"],
+  "arch": ["amd64"],
   "startup": "services",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:9987]",
