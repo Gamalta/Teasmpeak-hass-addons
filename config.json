@@ -1,0 +1,19 @@
+{
+  "name": "TeamSpeak 3 Server",
+  "version": "1.0.0",
+  "slug": "teamspeak3",
+  "description": "Run a TeamSpeak 3 server in Home Assistant",
+  "arch": ["aarch64", "amd64", "armv7"],
+  "startup": "services",
+  "boot": "auto",
+  "webui": "http://[HOST]:[PORT:9987]",
+  "ports": {
+    "9987/udp": 9987,
+    "10011/tcp": 10011,
+    "30033/tcp": 30033
+  },
+  "host_network": true,
+  "options": {},
+  "schema": {},
+  "image": "gamalta/teamspeak3-addon-{arch}"
+}
