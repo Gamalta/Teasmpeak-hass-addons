@@ -1,6 +1,6 @@
 {
   "name": "TeamSpeak Server",
-  "version": "1.0.0",
+  "version": "arm64v8-latest-qemu",
   "slug": "teamspeak",
   "description": "Run a TeamSpeak server in Home Assistant",
   "arch": ["aarch64"],
@@ -15,5 +15,5 @@
   "host_network": true,
   "options": {},
   "schema": {},
-  "image": "ertagh/teamspeak3-server:arm64v8-latest-qemu"
+  "image": "ertagh/teamspeak3-server"
 }
