@@ -15,5 +15,4 @@
   "host_network": true,
   "options": {},
   "schema": {},
-  "image": "docker.io/library/teamspeak:latest"
 }
