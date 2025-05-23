@@ -1,3 +1,3 @@
 [submodule "Ertagh-Teamspeak"]
 	path = Ertagh-Teamspeak
-	url = git@github.com:ertagh/teamspeak3-server-arm.git
+	url = https://github.com/ertagh/teamspeak3-server-arm.git
