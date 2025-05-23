@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "slug": "teamspeak",
   "description": "Run a TeamSpeak server in Home Assistant",
-  "arch": ["amd64"],
+  "arch": ["armv7", "aarch64"],
+  "args": {
+    "armv7": {
+      "BUILD_FROM": "Ertagh-Teamspeak/Dockerfile.arm32v7"
+    },
+    "aarch64": {
+      "BUILD_FROM": "Ertagh-Teamspeak/Dockerfile.arm64v8"
+    }
+  },
   "startup": "services",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:9987]",

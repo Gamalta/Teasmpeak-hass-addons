@@ -1,2 +1,2 @@
 ARG BUILD_FROM
-FROM teamspeak:latest
+FROM ${BUILD_FROM}
