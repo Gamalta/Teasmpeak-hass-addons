@@ -2,6 +2,7 @@
   "name": "TeamSpeak Server",
   "version": "arm64v8-latest-qemu",
   "slug": "teamspeak",
+  "init": false,
   "description": "Run a TeamSpeak server in Home Assistant",
   "arch": ["aarch64"],
   "startup": "services",
