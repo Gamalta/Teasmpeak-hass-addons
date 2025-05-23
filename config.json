@@ -15,5 +15,5 @@
   "host_network": true,
   "options": {},
   "schema": {},
-  "image": "Ertagh-Teamspeak/Dockerfile.arm64v8"
+  "image": "ertagh/teamspeak3-server:arm64v8-latest-qemu"
 }
