@@ -1,8 +1,8 @@
 {
-  "name": "TeamSpeak 3 Server",
+  "name": "TeamSpeak Server",
   "version": "1.0.0",
-  "slug": "teamspeak3",
-  "description": "Run a TeamSpeak 3 server in Home Assistant",
+  "slug": "teamspeak",
+  "description": "Run a TeamSpeak server in Home Assistant",
   "arch": ["amd64"],
   "startup": "services",
   "boot": "auto",

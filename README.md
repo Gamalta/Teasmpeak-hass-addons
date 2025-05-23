@@ -1,2 +1,1 @@
-
-# Teamspeak3-hass-addons
+# Teamspeak-hass-addons
