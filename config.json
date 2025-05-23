@@ -7,7 +7,6 @@
   "arch": ["aarch64"],
   "startup": "services",
   "boot": "auto",
-  "webui": "http://[HOST]:[PORT:9987]",
   "ports": {
     "9987/udp": 9987,
     "10011/tcp": 10011,
