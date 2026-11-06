@@ -3,7 +3,8 @@
   "version": "arm64v8-latest-qemu",
   "slug": "teamspeak",
   "init": false,
-  "description": "Run a TeamSpeak server in Home Assistant",
+  "description": "Deprecated, no longer maintained. Run a TeamSpeak server in Home Assistant",
+  "stage": "deprecated",
   "arch": ["aarch64"],
   "ports": {
     "9987/udp": 9987,
